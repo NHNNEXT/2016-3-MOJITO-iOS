@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" image="background_splash.png" translatesAutoresizingMaskIntoConstraints="NO" id="rKt-Yg-FF2"/>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="logo_mojito.png" translatesAutoresizingMaskIntoConstraints="NO" id="xZw-BI-JDl">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="130" id="ffQ-XC-8HG"/>
+                                    <constraint firstAttribute="width" constant="90" id="pA3-OM-nlX"/>
+                                </constraints>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="     아이디" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4bE-PJ-nyR">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="51" id="rc2-bH-MHN"/>
+                                </constraints>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="     비밀번호" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dCT-GC-jUL">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="51" id="qSa-TQ-38y"/>
+                                </constraints>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s0I-pg-Mex">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="q9F-hH-FXn"/>
+                                </constraints>
+                                <state key="normal" title="로그인">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bvJ-uw-X9Y">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.28994541952054792" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="sQa-6B-H1K"/>
+                                </constraints>
+                                <state key="normal" title="계정이 없으신가요? | 가입하기">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MJo-Fj-Svl">
+                                <color key="backgroundColor" red="0.27058823529411763" green="0.37647058823529411" blue="0.58039215686274503" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="gxm-7x-SD5"/>
+                                </constraints>
+                                <state key="normal" title="페이스북 로그인">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="rKt-Yg-FF2" secondAttribute="trailing" id="1qV-Vf-dlu"/>
+                            <constraint firstItem="s0I-pg-Mex" firstAttribute="top" secondItem="dCT-GC-jUL" secondAttribute="bottom" constant="23" id="5Q3-U1-uTX"/>
+                            <constraint firstItem="MJo-Fj-Svl" firstAttribute="top" secondItem="s0I-pg-Mex" secondAttribute="bottom" constant="15" id="701-9h-qSp"/>
+                            <constraint firstItem="rKt-Yg-FF2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7Oy-VJ-59T"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="s0I-pg-Mex" secondAttribute="trailing" constant="23" id="8SJ-BF-uFk"/>
+                            <constraint firstItem="s0I-pg-Mex" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="22" id="8ku-Ag-JLO"/>
+                            <constraint firstItem="dCT-GC-jUL" firstAttribute="top" secondItem="4bE-PJ-nyR" secondAttribute="bottom" constant="22" id="BqV-3h-fVN"/>
+                            <constraint firstItem="rKt-Yg-FF2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Gud-Jz-THc"/>
+                            <constraint firstAttribute="trailing" secondItem="bvJ-uw-X9Y" secondAttribute="trailing" id="IG4-5r-pwK"/>
+                            <constraint firstItem="rKt-Yg-FF2" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="N6O-hR-Bo5"/>
+                            <constraint firstItem="xZw-BI-JDl" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="72" id="Qvw-Tz-XXQ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="dCT-GC-jUL" secondAttribute="trailing" constant="23" id="Rbu-NI-3tS"/>
+                            <constraint firstItem="dCT-GC-jUL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Tub-z0-omH"/>
+                            <constraint firstItem="4bE-PJ-nyR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="U1r-Ay-TnA"/>
+                            <constraint firstItem="4bE-PJ-nyR" firstAttribute="top" secondItem="xZw-BI-JDl" secondAttribute="bottom" constant="67" id="XHy-g1-zT9"/>
+                            <constraint firstItem="dCT-GC-jUL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="22" id="aHN-DB-QAU"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="bvJ-uw-X9Y" secondAttribute="bottom" id="ise-V6-BvY"/>
+                            <constraint firstItem="xZw-BI-JDl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mTO-QT-ols"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="4bE-PJ-nyR" secondAttribute="trailing" constant="23" id="oNn-z3-XD0"/>
+                            <constraint firstItem="4bE-PJ-nyR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="22" id="oxf-7t-mKw"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="MJo-Fj-Svl" secondAttribute="trailing" constant="22" id="qL9-nC-hc0"/>
+                            <constraint firstItem="bvJ-uw-X9Y" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="qPa-j9-kkl"/>
+                            <constraint firstItem="MJo-Fj-Svl" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="22" id="thh-9l-SuN"/>
+                            <constraint firstItem="s0I-pg-Mex" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tjj-l3-wQj"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="rKt-Yg-FF2" secondAttribute="bottom" id="umM-vu-Iv4"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="btnLogin_login" destination="s0I-pg-Mex" id="HBZ-Uy-BYG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="123.68815592203899"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background_splash.png" width="769" height="1025"/>
+        <image name="logo_mojito.png" width="121" height="169"/>
+    </resources>
+</document>
