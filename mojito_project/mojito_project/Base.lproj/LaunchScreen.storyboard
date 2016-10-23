@@ -18,16 +18,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Default" translatesAutoresizingMaskIntoConstraints="NO" id="ufC-WT-cSz"/>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" image="splash" translatesAutoresizingMaskIntoConstraints="NO" id="xXq-d0-AdF"/>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="mojito_logo" translatesAutoresizingMaskIntoConstraints="NO" id="XUM-qr-Lb7">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="90" id="9Uk-As-QHM"/>
+                                    <constraint firstAttribute="height" constant="120" id="xXE-Dp-JOV"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="ufC-WT-cSz" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="5RG-KT-O12"/>
-                            <constraint firstItem="ufC-WT-cSz" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="768-PJ-YHK"/>
-                            <constraint firstAttribute="trailing" secondItem="ufC-WT-cSz" secondAttribute="trailing" id="GjC-d1-1HO"/>
-                            <constraint firstItem="ufC-WT-cSz" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="lBs-gB-a5Q"/>
-                            <constraint firstItem="ufC-WT-cSz" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="tKO-Hf-TMk"/>
-                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="ufC-WT-cSz" secondAttribute="bottom" id="tUD-W3-JTe"/>
+                            <constraint firstItem="xXq-d0-AdF" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="7Yc-aU-tcR"/>
+                            <constraint firstItem="XUM-qr-Lb7" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="BIH-44-Dbu"/>
+                            <constraint firstAttribute="trailing" secondItem="xXq-d0-AdF" secondAttribute="trailing" id="Nwf-RE-ba8"/>
+                            <constraint firstItem="xXq-d0-AdF" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="O0T-jf-n22"/>
+                            <constraint firstItem="XUM-qr-Lb7" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Uev-ux-LGb"/>
+                            <constraint firstAttribute="bottom" secondItem="xXq-d0-AdF" secondAttribute="bottom" id="rcY-K6-uJp"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -37,6 +43,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Default" width="768" height="1024"/>
+        <image name="mojito_logo" width="121" height="169"/>
+        <image name="splash" width="769" height="1025"/>
     </resources>
 </document>
