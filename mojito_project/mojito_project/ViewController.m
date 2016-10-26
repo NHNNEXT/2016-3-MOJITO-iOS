@@ -22,6 +22,7 @@
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
+    //주석을 하나 껄껄
     // Dispose of any resources that can be recreated.
 }
 
