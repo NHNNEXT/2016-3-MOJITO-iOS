@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="GIc-PE-Xyr">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="GIc-PE-Xyr">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
@@ -1471,22 +1471,34 @@
                                 </constraints>
                                 <state key="normal" image="create_appbar_check_tab"/>
                             </button>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="create_nav_bomb" translatesAutoresizingMaskIntoConstraints="NO" id="3RH-V6-siR">
+                                <frame key="frameInset" minX="11" minY="321" width="44" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="create_nav_clock" translatesAutoresizingMaskIntoConstraints="NO" id="Nlo-dX-4jT">
+                                <frame key="frameInset" minX="63" minY="321" width="44" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="create_nav_place" translatesAutoresizingMaskIntoConstraints="NO" id="YcL-Wu-Zf7">
+                                <frame key="frameInset" minX="115" minY="321" width="44" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="create_nav_friend" translatesAutoresizingMaskIntoConstraints="NO" id="yBJ-Qh-tS1">
+                                <frame key="frameInset" minX="167" minY="321" width="44" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="create_appbar_tag" translatesAutoresizingMaskIntoConstraints="NO" id="sWw-w0-qcc">
+                                <frame key="frameInset" minX="331" minY="321" width="44" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="DD1-tP-B73">
-                                <frame key="frameInset" minY="118" width="375" height="162"/>
+                                <frame key="frameInset" minY="78" width="375" height="162"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">홍대 카페에서 공부할 거에요! 같이 할 사람?       아...리턴키ㅜㅜ                                                    꼼마 갈 것 같은데, 가봐서 사람 많으면,                 바로 옆에 쉼표 있어요.                                               거기서 코딩하고 있을게요!</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Our-T8-OW0">
-                                <frame key="frameInset" minY="288" width="375" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.76560476036269431" green="0.73968859280146937" blue="0.33682490067756798" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -1513,7 +1525,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nTA-nY-299" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1580" y="553"/>
+            <point key="canvasLocation" x="1580" y="552.77361319340332"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Gd3-PH-RI7">
@@ -2253,6 +2265,11 @@
         <image name="clock_icon" width="25" height="25"/>
         <image name="create_appbar_back" width="90" height="90"/>
         <image name="create_appbar_check_tab" width="90" height="90"/>
+        <image name="create_appbar_tag" width="90" height="90"/>
+        <image name="create_nav_bomb" width="90" height="90"/>
+        <image name="create_nav_clock" width="90" height="90"/>
+        <image name="create_nav_friend" width="90" height="90"/>
+        <image name="create_nav_place" width="90" height="90"/>
         <image name="default_image_smile" width="105" height="105"/>
         <image name="detail_appbar_add" width="89" height="89"/>
         <image name="detail_appbar_logo" width="122" height="36"/>
@@ -2282,8 +2299,8 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="Aip-lR-xI3"/>
-        <segue reference="8Fe-3u-Ath"/>
-        <segue reference="7Iz-Oh-Jv5"/>
+        <segue reference="3mA-d1-da5"/>
+        <segue reference="5IC-WA-DqU"/>
         <segue reference="Ha0-q2-NvE"/>
     </inferredMetricsTieBreakers>
 </document>
