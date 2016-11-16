@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B6A50EC1DD2BC56009B3EDE /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6A50EB1DD2BC56009B3EDE /* LoginViewController.m */; };
 		7C150AC81DB710690093D21C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C150AC71DB710690093D21C /* main.m */; };
 		7C150ACB1DB710690093D21C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C150ACA1DB710690093D21C /* AppDelegate.m */; };
 		7C150ACE1DB710690093D21C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C150ACD1DB710690093D21C /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B6A50EA1DD2BC56009B3EDE /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		3B6A50EB1DD2BC56009B3EDE /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		7C150AC31DB710690093D21C /* mojito_project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mojito_project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C150AC71DB710690093D21C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7C150AC91DB710690093D21C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -106,6 +109,8 @@
 				7C150ACC1DB710690093D21C /* ViewController.h */,
 				7C150ACD1DB710690093D21C /* ViewController.m */,
 				7C150ACF1DB710690093D21C /* Main.storyboard */,
+				3B6A50EA1DD2BC56009B3EDE /* LoginViewController.h */,
+				3B6A50EB1DD2BC56009B3EDE /* LoginViewController.m */,
 				7C150AD21DB710690093D21C /* Assets.xcassets */,
 				7C150AD41DB710690093D21C /* LaunchScreen.storyboard */,
 				7C150AD71DB710690093D21C /* Info.plist */,
@@ -274,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B6A50EC1DD2BC56009B3EDE /* LoginViewController.m in Sources */,
 				7C150ACE1DB710690093D21C /* ViewController.m in Sources */,
 				7C150ACB1DB710690093D21C /* AppDelegate.m in Sources */,
 				7C150AC81DB710690093D21C /* main.m in Sources */,

@@ -12,4 +12,8 @@ https://docs.google.com/spreadsheets/d/1hVxKddFRsk3eanqzC19RcZUU0hgrH4JFIdfMH7wH
 
 - "기능 1(기획)" (or "card 1(트렐로)") 을 완성하면 "finish feature(git flow)"할 것
 
+<<<<<<< HEAD
 - 연습입니다.
+=======
+- 크하하하 내가 용자이다.
+>>>>>>> c31fb55d4a8a5bb6aba1914dd6c159be91fd26a8
